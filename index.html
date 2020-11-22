@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Prueba Jhon Edison Rosero Lopez</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="header__logo">Jhon Rosero</a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav__name">Jhon Rosero</a>
+                            <span class="nav__profesion">Web Developer</span>
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li> 
+                            <li class="nav__item"><a href="#galery" class="nav__link">Galery</a></li> 
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home-title">Slider</span></h1>  
+                    
+                </div> 
+                
+                <div class="container-all">
+
+                    <input type="radio" id="1" name="image-slide" hidden/>
+                    <input type="radio" id="2" name="image-slide" hidden/>
+                    <input type="radio" id="3" name="image-slide" hidden/>
+                    
+            
+                    <div class="slide">
+            
+                        <div class="item-slide">
+                            <img src="assets/img/img1.jpg">
+                        </div>
+            
+                        <div class="item-slide">
+                            <img src="assets/img/img2.jpg">
+                        </div>
+            
+                        <div class="item-slide">
+                            <img src="assets/img/img3.jpg">
+                        </div>
+                        
+            
+                    </div>
+            
+                    <div class="pagination">
+                       
+                        <label class="pagination-item" for="1">
+                            <img src="assets/img//img1.jpg">
+                        </label>
+                        
+                        <label class="pagination-item" for="2">
+                            <img src="assets/img/img2.jpg">
+                        </label>
+                        
+                        <label class="pagination-item" for="3">
+                            <img src="assets/img/img3.jpg">
+                        </label>
+                      
+                        
+                    </div>
+                    
+                </div>
+            
+
+               
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Estudiante Uam</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="home bd-grid" id="menu">
+                <h2 class="section-title">Menu</h2>
+                
+                <div class="container-all">
+
+                    <input type="radio" id="1" name="image-slide" hidden/>
+                    <input type="radio" id="2" name="image-slide" hidden/>
+                    <input type="radio" id="3" name="image-slide" hidden/>
+                    
+            
+                    <div class="slide">
+            
+                        <div class="item-slide">
+                            <img src="assets/img/sli1.jpg">
+                            <input type="button" value="Visitar" class="button1" src="https://www.autonoma.edu.co/">
+                        </div>
+            
+                        <div class="item-slide">
+                            <img src="assets/img/sli2.jpg">
+                            <input type="button" value="Visitar" class="button1" src="https://www.autonoma.edu.co/">
+                            
+                        </div>
+            
+                        <div class="item-slide">
+                            <img src="assets/img/sli3.jpg">
+                            <input type="button" value="Visitar" class="button1" src="https://www.autonoma.edu.co/">
+                        </div>
+                        
+            
+                    </div>
+            
+                    <div class="pagination">
+                       
+                        <label class="pagination-item" for="1">
+                            <img src="assets/img//sli1.jpg">
+                        </label>
+                        
+                        <label class="pagination-item" for="2">
+                            <img src="assets/img/sli2.jpg">
+                        </label>
+                        
+                        <label class="pagination-item" for="3">
+                            <img src="assets/img/sli3.jpg">
+                        </label>
+                      
+                        
+                    </div>
+                    
+                </div>
+                    
+                
+
+                
+            </section>
+
+            <section class="galeriy section" id="galery">
+                <h2 class="section-title">Galery</h2>
+
+                <div class="galery__container bd-grid">
+                    <div class="galery__img">
+                        <img src="assets/img/uam1.jpg" alt="">
+                    </div>
+                    <div class="galery__img">
+                        <img src="assets/img/uam2.jpg" alt="">
+                    </div>
+                    <div class="galery__img">
+                        <img src="assets/img/uam3.jpg" alt="">
+                    </div>
+                    <div class="galery__img">
+                        <img src="assets/img/uam4.jpg" alt="">
+                    </div>
+                    <div class="galery__img">
+                        <img src="assets/img/uam5.jpg" alt="">
+                    </div>
+                    <div class="galery__img">
+                        <img src="assets/img/uam6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="Coments"  id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+
+          
+           
+                   
+         
+        </main>
+
+        <footer class="footer">
+            <p class="footer__title">Gracias</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><ion-icon name="logo-facebook"></i></a>
+                <a href="#" class="footer__icon"><ion-icon name="logo-instagram"></i></a>
+                <a href="#" class="footer__icon"><ion-icon name="logo-twitter"></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
